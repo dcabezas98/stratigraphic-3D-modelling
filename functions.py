@@ -9,14 +9,9 @@ import matplotlib.pyplot as plt
 import shapely.geometry as geometry
 
 from shapely.geometry import Polygon
-from descartes import PolygonPatch
 from scipy.spatial import ConvexHull
-from scipy.spatial import Delaunay
 
 import os
-
-from concave_hull import alpha_shape
-from sklearn.neighbors import KNeighborsClassifier
 
 def coordinates(data,positions):
     p=positions
