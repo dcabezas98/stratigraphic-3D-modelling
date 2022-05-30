@@ -1,17 +1,14 @@
 # -*- coding: utf-8 -*-
 
-from lib2to3.pgen2 import literals
 import numpy as np
 import plotly.offline as go_offline
 import plotly.graph_objects as go
 import pandas as pd
-import matplotlib.pyplot as plt
+
 import shapely.geometry as geometry
 
 from shapely.geometry import Polygon
 from scipy.spatial import ConvexHull
-
-import os
 
 def coordinates(data,positions):
     p=positions
